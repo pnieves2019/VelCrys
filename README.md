@@ -2,7 +2,7 @@
 VelCrys: Interactive web-based application to compute acoustic wave velocity in crystals and its magnetic corrections
 
 
-Authors: P. Nieves, I. Korniienko, A. Fraile, J.M. Fernández, R. Iglesias, D. Legut
+Authors: P. Nieves, I. Korniienko, A. Fraile, J.M. Fernández-Díaz, R. Iglesias, D. Legut
 
 -------------------------
 WHAT IS VelCrys?
@@ -61,11 +61,11 @@ then visit http://127.0.0.1:8050/ in your web browser to use VelCrys.
 DOCUMENTATION
 ------------------------------
 
-More details of this application can be found in preprint available in arXiv:
+More details and examples of this application can be found in the published article:
 
-P. Nieves, I. Korniienko, A. Fraile, J.M. Fernández, R. Iglesias, D. Legut, VelCrys: Interactive web-based application to compute acoustic wave velocity in crystals and its magnetic corrections, arXiv:2405.14416
+P. Nieves, I. Korniienko, A. Fraile, J.M. Fernández-Díaz, R. Iglesias, D. Legut, VelCrys: Interactive web-based application to compute acoustic wave velocity in crystals and its magnetic corrections, SoftwareX 33 (2026) 102472.
 
-[https://arxiv.org/pdf/2405.14416](https://arxiv.org/pdf/2405.14416)
+[https://doi.org/10.1016/j.softx.2025.102472](https://doi.org/10.1016/j.softx.2025.102472)
 
 
 

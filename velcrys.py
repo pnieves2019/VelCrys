@@ -28,10 +28,10 @@ app.config.suppress_callback_exceptions = True
 app.layout = html.Div(children=[
     html.H1(children='VelCrys: A tool to Compute Sound Velocity in Crystals'),
     html.Hr(),
-    html.H5('P. Nieves, J.M. Fernández, R. Iglesias'),
+    html.H5('P. Nieves, J.M. Fernández-Díaz, R. Iglesias'),
     html.H6('Universidad de Oviedo, Spain'),
     html.H5('A. Fraile'),
-    html.H6('Centro de Física de Materiales (CFM) CSIC-UPV/EHU, San Sebastián, Spain'),
+    html.H6('Catalan Institute of Nanoscience and Nanotechnology (ICN2), BIST-CSIC, Spain'),
     html.H5('I. Korniienko, D. Legut'),
     html.H6('IT4Innovations, VSB - Technical University of Ostrava, Czech Republic'),
     html.Hr(),
@@ -54,7 +54,7 @@ app.layout = html.Div(children=[
 
     dcc.Markdown('$$\\frac{v-v_0}{v_0}=\\frac{v(C_{ij}+\Delta C_{ij})-v(C_{ij})}{v(C_{ij})}$$', mathjax=True),
     
-    dcc.Markdown('''This option is currently supported only for Cubic I (space group numbers 207-230), and Hexagonal I (space group numbers 177-194) symmetries.''', mathjax=True),
+    dcc.Markdown('''This option is currently supported only for Cubic I (space group numbers 207-230), and Hexagonal I (space group numbers 177-194) symmetries. More details and examples of VelCrys can be found in the published article [SoftwareX, 33, 102472 (2026)](https://doi.org/10.1016/j.softx.2025.102472)''', mathjax=True),
 
 
     html.Hr(),
@@ -83,10 +83,12 @@ app.layout = html.Div(children=[
     dcc.Markdown('''[https://doi.org/10.1190/geo2022-0566.1](https://doi.org/10.1190/geo2022-0566.1)'''),
     html.H6(" [2] S. Rinaldi and G. Turilli, Theory of linear magnetoelastic effects, Phys. Rev. B, 31, 3051 (1985). "),
     dcc.Markdown('''[https://doi.org/10.1103/PhysRevB.31.3051](https://doi.org/10.1103/PhysRevB.31.3051)'''),
+    html.H3("Published article"),
+    html.H6(" P. Nieves, I. Korniienko, A. Fraile, J.M. Fernández-Díaz, R. Iglesias, D. Legut, VelCrys: Interactive web-based application to compute acoustic wave velocity in crystals and its magnetic corrections, SoftwareX, 33, 102472 (2026) "),
+    dcc.Markdown('''[https://doi.org/10.1016/j.softx.2025.102472](https://doi.org/10.1016/j.softx.2025.102472)'''),
     html.H3("Source files"),
     dcc.Markdown('''[https://github.com/pnieves2019/VelCrys](https://github.com/pnieves2019/VelCrys)'''),
     html.Hr(),
-
 
 ])
 

@@ -83,9 +83,10 @@ app.layout = html.Div(children=[
     dcc.Markdown('''[https://doi.org/10.1190/geo2022-0566.1](https://doi.org/10.1190/geo2022-0566.1)'''),
     html.H6(" [2] S. Rinaldi and G. Turilli, Theory of linear magnetoelastic effects, Phys. Rev. B, 31, 3051 (1985). "),
     dcc.Markdown('''[https://doi.org/10.1103/PhysRevB.31.3051](https://doi.org/10.1103/PhysRevB.31.3051)'''),
-    html.H3("Published article"),
+    html.H3("Citation of VelCrys"),
+    dcc.Markdown('''If you have used VelCrys, please cite the following article'''),
     html.H6(" P. Nieves, I. Korniienko, A. Fraile, J.M. Fernández-Díaz, R. Iglesias, D. Legut, VelCrys: Interactive web-based application to compute acoustic wave velocity in crystals and its magnetic corrections, SoftwareX, 33, 102472 (2026) "),
-    dcc.Markdown('''[https://doi.org/10.1016/j.softx.2025.102472](https://doi.org/10.1016/j.softx.2025.102472)'''),
+    dcc.Markdown('''[https://doi.org/10.1016/j.softx.2025.102472](https://doi.org/10.1016/j.softx.2025.102472) (Open access)'''),
     html.H3("Source files"),
     dcc.Markdown('''[https://github.com/pnieves2019/VelCrys](https://github.com/pnieves2019/VelCrys)'''),
     html.Hr(),
@@ -1925,3 +1926,4 @@ def update_hf(cc11,cc12,cc13,cc33,cc44,ms,kk1,kk2,bb21,bb22,bb3,bb4,hx,hy,hz,rho
 
 if __name__ == '__main__':
         app.run_server(debug=True)
+        #app.run(debug=True)

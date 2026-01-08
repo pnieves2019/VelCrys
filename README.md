@@ -57,16 +57,35 @@ python3 velcrys.py
 ```
 then visit http://127.0.0.1:8050/ in your web browser to use VelCrys.
 
+**Compatibility issues**
+
+On modern Linux, pip (pip3) may block global installs. A possible solution could be to use a virtual environment (venv):
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install <package_name>
+```
+
+Depending on the version of Dash, it may be needed to replace the last line in the velcrys.py file "app.run_server(debug=True)" with "app.run(debug=True)". 
+
 ------------------------------
-DOCUMENTATION
+DOCUMENTATION AND CITATION OF VelCrys
 ------------------------------
 
 More details and examples of this application can be found in the published article:
 
 P. Nieves, I. Korniienko, A. Fraile, J.M. Fernández-Díaz, R. Iglesias, D. Legut, VelCrys: Interactive web-based application to compute acoustic wave velocity in crystals and its magnetic corrections, SoftwareX 33 (2026) 102472.
 
-[https://doi.org/10.1016/j.softx.2025.102472](https://doi.org/10.1016/j.softx.2025.102472)
+[https://doi.org/10.1016/j.softx.2025.102472](https://doi.org/10.1016/j.softx.2025.102472) (Open access)
 
+If you have used VelCrys, please cite it as
 
-
+@article{NIEVES2026102472,\
+author = {P. Nieves and I. Korniienko and A. Fraile and J.M. Fernández-Díaz and R. Iglesias and D. Legut},\
+title = {VelCrys: Interactive web-based application to compute acoustic wave velocity in crystals and its magnetic corrections},\
+journal = {SoftwareX},\
+volume = {33},\
+pages = {102472},\
+year = {2026},\
+doi = {https://doi.org/10.1016/j.softx.2025.102472} }
 
